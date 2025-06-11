@@ -6,7 +6,9 @@ Quick example of FastAPI service with simple authentication and RBAC and simulat
 ## Create venv
 open a terminal in root of this repo and run:  
 `python -m venv ./venv`  
-then  
+Modify the `./venv/pyvenv.cfg` file to have:
+`include-system-site-packages = true`  
+save the .cfg then run:  
 `./venv/scripts/activate`  
 and install all the python modules by running:  
 `python -m pip install -r requirements.txt`
