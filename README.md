@@ -21,3 +21,7 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
+
+## FastAPI Auto-Documentation access:
+Once the service is running, it should be possible to access by going to:  
+http://localhost:8000/docs/
