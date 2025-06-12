@@ -8,6 +8,13 @@ fake_users_db = {
         "email": "test@example.com",
         "hashed_password": pwd_context.hash("testpassword"),
         "is_active": True
+    },
+    "admin": {
+        "id": 2,
+        "username": "admin",
+        "email": "test2@example.com",
+        "hashed_password": pwd_context.hash("testpassword"),
+        "is_active": True
     }
 }
 
